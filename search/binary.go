@@ -23,3 +23,16 @@ func (b *Binary) Search(list []int, value int) (int, int) {
 
 	return -1, operations
 }
+
+func (b *Binary) IterativeSearch(list []int, value int) (int, int) {
+	operations := 0
+
+	for v, i := range list {
+		if v == value {
+			return i, operations
+		}
+		operations += 1
+	}
+
+	return -1, operations
+}

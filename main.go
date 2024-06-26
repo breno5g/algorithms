@@ -12,5 +12,6 @@ func main() {
 	for i := 0; i < 10000; i++ {
 		arr[i] = i
 	}
-	fmt.Println(binary.Search(arr, 7435))
+	// fmt.Println(binary.Search(arr, 7435))
+	fmt.Println(binary.IterativeSearch(arr, 7435))
 }
