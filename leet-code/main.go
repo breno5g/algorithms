@@ -15,6 +15,9 @@ func Init() {
 	// result := twoSum(numbers, target)
 	// fmt.Printf("result: %v\n", result)
 
-	number := 313
-	fmt.Printf("result: %v\n", palindromeNumber(number))
+	// number := 313
+	// fmt.Printf("result: %v\n", palindromeNumber(number))
+
+	roman := "XIX"
+	fmt.Printf("result: %v\n", romanToInt(roman))
 }
