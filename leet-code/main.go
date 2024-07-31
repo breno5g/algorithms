@@ -9,9 +9,12 @@ func Init() {
 	// result := addTwoNumbers(l1, l2)
 	// fmt.Printf("result: %v\n", result)
 
-	numbers := []int{1, 2, 3, 4, 5, 6, 6, 7}
-	target := 8
+	// numbers := []int{1, 2, 3, 4, 5, 6, 6, 7}
+	// target := 8
 
-	result := twoSum(numbers, target)
-	fmt.Printf("result: %v\n", result)
+	// result := twoSum(numbers, target)
+	// fmt.Printf("result: %v\n", result)
+
+	number := 313
+	fmt.Printf("result: %v\n", palindromeNumber(number))
 }
